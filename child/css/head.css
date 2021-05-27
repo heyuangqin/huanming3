@@ -1,0 +1,106 @@
+/* 头部登陆注册 */
+.headr-land-left li {
+	height: 36px;
+	width: 60px;
+	line-height: 36px;
+	float: left;
+}
+
+.headr-land-left li a {
+	color: #6A6C70;
+}
+
+.headr-land-left li a:hover {
+	color: #3fff00;
+}
+
+.headr-land-right li {
+	width: 50px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	font-size: 16px;
+	float: left;
+}
+
+/* 头部搜索*/
+.headr-search {
+	width: 100%;
+	background: #ffffff;
+}
+
+.headr-search-left,
+.headr-search-right {
+	height: 90px;
+	line-height: 90px;
+	position: relative;
+}
+
+.headr-search-left span:nth-child(2) {
+	display: inline-block;
+	width: 60px;
+	height: 22px;
+	line-height: 22px;
+	background: red;
+	color: #ffff;
+	text-align: center;
+	border-radius: 7px;
+	font-style: italic;
+	font-size: 12px;
+	position: absolute;
+	top: 24px;
+	left: 131px;
+}
+
+.headr-search-right input {
+	width: 200px;
+	height: 31px;
+	border: 2px solid #E0E0E0;
+	box-sizing: border-box;
+	outline: none;
+	text-indent: 10px;
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	margin-right: -5px;
+	margin-top: -1px;
+}
+
+.headr-search-right button {
+	width: 76px;
+	height: 30px;
+	line-height: 30px;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	background-color: #c2c2c2;
+	border: none;
+	color: #FFFFFF;
+	margin-right: 50px;
+}
+
+.headr-search-right button:hover {
+	background: #e2e2e2;
+	cursor: pointer;
+}
+
+/* 头部导航 */
+.headr-nav {
+	width: 100%;
+	background: red;
+}
+
+.headr-nav-content li {
+	height: 50px;
+	line-height: 50px;
+	width: 55px;
+	text-align: center;
+	font-size: 16px;
+	float: left;
+}
+
+.headr-nav-content li a {
+	color: #FFFFFF;
+}
+
+.headr-nav-content li a:hover {
+	color: #ff9800;
+}
